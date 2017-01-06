@@ -23,11 +23,11 @@ CXXFLAGS       :=-std=c++11
 LDFLAGS        :=-L$(KNUPATH_INSTALL)/lib -Wl,-rpath,$(KNUPATH_INSTALL)/lib
 LDLIBS         :=-lkpirt -lism -llfi
 
-.PHONY: all clean
+.PHONY: all run clean
 
 all: $(EXE)
 
-run:
+run: all
 	./$(EXE)
 
 clean:
