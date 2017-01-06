@@ -1,9 +1,9 @@
 {
   "schema":[
     {
-       "filename":"example_output.csv",
+       "filename":"",
        "format":"CSV",
-       "description":"Test"
+       "description":""
     }
   ]
 }
